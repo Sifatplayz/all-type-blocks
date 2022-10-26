@@ -6,7 +6,7 @@
       "menu_category": {
         "group": "my:planks",
         "category": "construction",
-        "is_hidden_in_command": false
+        "is_hidden_in_commands": false
       }
     },
     "components": {
