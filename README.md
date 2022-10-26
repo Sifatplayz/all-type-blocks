@@ -3,8 +3,6 @@
 Here is repository about making every kind of blocks
 
 
-```html
- <h1>hello</h1>
-   
- 
+```javascript
+  import $ from './libs/slib.js'
 ```
