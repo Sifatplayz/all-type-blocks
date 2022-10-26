@@ -4,7 +4,7 @@
     "description": {
       "identifier": "my:new_planks",
       "menu_category": {
-        "group": "scraft:planks",
+        "group": "my:planks",
         "category": "construction",
         "is_hidden_in_command": false
       }
@@ -20,10 +20,10 @@
         "explosion_resistance": 3.0
       },
       "minecraft:flammable": {
-        "destroy_chance_modifier": 20,
-        "catch_chance_modifier": 5
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
       },
-      "minecraft:block_light_filter": 15,
+      "minecraft:light_damping": 15,
       "minecraft:material_instances": {
         "*": {
           "texture": "new_planks",
