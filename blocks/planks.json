@@ -11,6 +11,7 @@
     },
     "components": {
       "tag:minecraft:wood": {},
+      "minecraft:display_name": "Plank",
       "minecraft:destructible_by_mining": {
         "second_to_destroy": 3
       },
