@@ -1,1 +1,39 @@
-{}
+{
+  "format_version": "1.19.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "my:new_planks",
+      "menu_category": {
+        "group": "scraft:planks",
+        "category": "construction",
+        "is_hidden_in_command": false
+      }
+    },
+    "components": {
+      "tag:minecraft:wood": {},
+      "tag:scraft:wood_types": {},
+      "minecraft:destructible_by_mining": {
+        "second_to_destroy": 3
+      },
+      "minecraft:friction": 0.7,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3.0
+      },
+      "minecraft:flammable": {
+        "destroy_chance_modifier": 20,
+        "catch_chance_modifier": 5
+      },
+      "minecraft:block_light_filter": 15,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "new_planks",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:breathability": "solid",
+      "minecraft:map_color": "rgb(0,0,0)",
+      "minecraft:loot": "loot_tables/blocks/new_planks.json",
+      "minecraft:unit_cube": {}
+    }
+  }
+}
