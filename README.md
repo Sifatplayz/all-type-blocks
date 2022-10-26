@@ -4,5 +4,5 @@ Here is repository about making every kind of blocks
 
 
 ```javascript
-  import $ from './libs/slib.js'
+  import $ from './libs/slib.js';
 ```
