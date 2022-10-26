@@ -11,7 +11,6 @@
     },
     "components": {
       "tag:minecraft:wood": {},
-      "tag:scraft:wood_types": {},
       "minecraft:destructible_by_mining": {
         "second_to_destroy": 3
       },
