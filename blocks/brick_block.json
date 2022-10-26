@@ -1,1 +1,35 @@
-{}
+{
+  "format_version": "1.19.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "my:new_brick_block",
+      "menu_category": {
+        "group": "my:brick_blocks",
+        "category": "construction",
+        "is_hidden_in_commands": false
+      }
+    },
+    "components": {
+      "tag:minecraft:stone": {},
+      "minecraft:display_name": "Brick block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10.0
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6.0
+      },
+      "minecraft:block_light_filter": 15,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "new_brick_block",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:breathability": "solid",
+      "minecraft:map_color": "rgb(0,0,0)",
+      "minecraft:loot": "loot_tables/blocks/brick_block.json",
+      "minecraft:unit_cube": {}
+    }
+  }
+}
