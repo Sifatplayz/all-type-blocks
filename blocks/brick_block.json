@@ -13,11 +13,11 @@
       "tag:minecraft:stone": {},
       "minecraft:display_name": "Brick block",
       "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 10.0
+        "seconds_to_destroy": 10
       },
       "minecraft:friction": 0.6,
       "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 6.0
+        "explosion_resistance": 6
       },
       "minecraft:light_damping": 15,
       "minecraft:material_instances": {
@@ -26,7 +26,6 @@
           "render_method": "opaque"
         }
       },
-      "minecraft:breathability": "solid",
       "minecraft:map_color": "rgb(0,0,0)",
       "minecraft:loot": "loot_tables/blocks/brick_block.json",
       "minecraft:unit_cube": {}
