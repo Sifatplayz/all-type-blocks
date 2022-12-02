@@ -1,5 +1,5 @@
 {
-  "format_version": "1.19.30",
+  "format_version": "1.19.50",
   "minecraft:block": {
     "description": {
       "identifier": "my:new_planks",
@@ -15,9 +15,9 @@
       "minecraft:destructible_by_mining": {
         "second_to_destroy": 3
       },
-      "minecraft:friction": 0.7,
+      "minecraft:friction": 0.6,
       "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 3.0
+        "explosion_resistance": 3
       },
       "minecraft:flammable": {
         "catch_chance_modifier": 5,
@@ -30,9 +30,8 @@
           "render_method": "opaque"
         }
       },
-      "minecraft:breathability": "solid",
-      "minecraft:map_color": "rgb(0,0,0)",
-      "minecraft:loot": "loot_tables/blocks/new_planks.json",
+      "minecraft:map_color": "rgb(0,0,0)",//add your block color (RGB value) that you what to show on map.
+      "minecraft:loot": "loot_tables/blocks/new_planks.json",//Your loot table path.
       "minecraft:unit_cube": {}
     }
   }
