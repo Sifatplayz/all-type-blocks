@@ -30,8 +30,8 @@
           "render_method": "opaque"
         }
       },
-      "minecraft:map_color": "rgb(0,0,0)",//add your block color (RGB value) that you what to show on map.
-      "minecraft:loot": "loot_tables/blocks/new_planks.json",//Your loot table path.
+      "minecraft:map_color": "rgb(0,0,0)",//Replace it with your block color (RGB value) that you what to show on map.
+      "minecraft:loot": "loot_tables/blocks/new_planks.json",//Replace it with your loot table path.
       "minecraft:unit_cube": {}
     }
   }
